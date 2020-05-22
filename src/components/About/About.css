@@ -1,0 +1,28 @@
+/* Variables */
+/* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+/* mixins */
+#about-section {
+  overflow: hidden;
+  background: #acb9b5;
+  -webkit-box-shadow: 0 0 0.3rem black;
+          box-shadow: 0 0 0.3rem black;
+  border-radius: 0.5em;
+  color: #303841;
+  font-size: 1.3em;
+  width: 90%;
+  max-width: 60rem;
+  margin: -1em auto 0 auto;
+  position: relative;
+}
+
+.about {
+  padding: 1.2em;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+
+.about h2 {
+  color: black;
+  font-weight: bold;
+}
+/*# sourceMappingURL=About.css.map */

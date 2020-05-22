@@ -1,0 +1,32 @@
+/* Variables */
+$main-font: 'Darker Grotesque', sans-serif;
+$background-color-light: #4d6680;
+$background-color-dark: #303841;
+$text-color-light: #acb9b5;
+$nav-color: #303f50;
+$hover-color: #be3144;
+// $slider-width: 400px;
+// $slider-height: 300px;
+$slider-width: 18rem;
+$slider-height: 15rem;
+/* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+$break-small: 576px;
+$break-medium: 768px;
+$break-large: 992px;
+$break-xlarge: 1200px;
+
+/* mixins */
+@mixin respond-to($media) {
+  @if $media == small {
+    @media (min-width: $break-small) { @content; }
+  } 
+  @else if $media == medium {
+    @media (min-width: $break-medium) and (min-height: $break-small) { @content; }
+  }
+  @else if $media == large {
+    @media (min-width: $break-large) and (min-height: $break-small) { @content; }
+  }
+  @else if $media == xlarge {
+    @media (min-width: $break-xlarge) and (min-height: $break-medium) { @content; }
+  }
+}

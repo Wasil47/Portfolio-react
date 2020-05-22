@@ -1,0 +1,124 @@
+/* Variables */
+/* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+/* mixins */
+#welcome-section {
+  min-height: 60vh;
+  max-height: 100vh;
+  background: #303841;
+  -webkit-box-shadow: 0 0 0.2rem #303841;
+          box-shadow: 0 0 0.2rem #303841;
+  text-shadow: 0px 0.5px 2px black;
+  font-size: 1.6em;
+}
+
+@media (min-width: 992px) and (min-height: 576px) {
+  #welcome-section {
+    min-height: 70vh;
+    height: 70vh;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 768px) {
+  #welcome-section {
+    min-height: 75vh;
+    height: 75vh;
+  }
+}
+
+.welcome {
+  position: relative;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  height: 100%;
+  max-width: 60rem;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+.welcome .hello {
+  padding-top: 22vmin;
+}
+
+@media (min-width: 576px) {
+  .welcome .hello {
+    padding-top: 8vmin;
+  }
+}
+
+@media (min-width: 992px) and (min-height: 576px) {
+  .welcome .hello {
+    padding-top: 20vmin;
+    padding-left: 10vmin;
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 768px) {
+  .welcome .hello {
+    padding-top: 20vmin;
+    padding-left: 12vmin;
+  }
+}
+
+.welcome .hello h1, .welcome .hello p {
+  -webkit-transition: all .6s ease-in;
+  transition: all .6s ease-in;
+}
+
+.welcome .profile-photo {
+  position: relative;
+  margin: 1em auto 0 auto;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 0.3rem black;
+          box-shadow: 0 0 0.3rem black;
+  height: 200px;
+  width: 200px;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+  background: #acb9b5;
+  z-index: 0;
+}
+
+@media (min-width: 576px) {
+  .welcome .profile-photo {
+    height: 8em;
+    width: 8em;
+  }
+}
+
+@media (min-width: 992px) and (min-height: 576px) {
+  .welcome .profile-photo {
+    position: absolute;
+    bottom: 0.9rem;
+    left: 0.3em;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: none;
+    overflow: visible;
+    height: 12em;
+    width: 12em;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 768px) {
+  .welcome .profile-photo {
+    height: 15em;
+    width: 15em;
+  }
+}
+
+.welcome .profile-photo .photo {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 30%;
+  background-image: url(../../images/profilowe2.png);
+}
+
+.hide-hello {
+  opacity: 0.1;
+}
+/*# sourceMappingURL=Welcome.css.map */

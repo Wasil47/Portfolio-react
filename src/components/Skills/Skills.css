@@ -1,0 +1,40 @@
+/* Variables */
+/* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+/* mixins */
+#skill-section {
+  overflow: hidden;
+  font-weight: normal;
+  text-shadow: 0.5px 1px 2px black;
+  padding-top: 1em;
+  margin: 1em auto 1em auto;
+  max-width: 40rem;
+  width: 90%;
+}
+
+#skill-section h2 {
+  padding-top: 0.5em;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5em 0 0.5em 0;
+  -webkit-transition: all .4s ease-in;
+  transition: all .4s ease-in;
+}
+
+.skill-img {
+  height: 3em;
+  width: 3em;
+}
+
+.skill-comment {
+  padding-left: 0.2em;
+  font-size: 1.2em;
+  max-width: calc(100% - 3em);
+}
+/*# sourceMappingURL=Skills.css.map */

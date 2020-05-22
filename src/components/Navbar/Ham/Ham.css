@@ -1,0 +1,41 @@
+/* Variables */
+/* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+/* mixins */
+.ham {
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  top: 0em;
+  right: 0.5em;
+  margin: 1px;
+  width: 2em;
+  height: 2em;
+  z-index: 11;
+}
+
+.ham .line {
+  display: block;
+  width: 1.8em;
+  height: 0.2em;
+  margin: 0.35em auto 0.2em auto;
+  background: #acb9b5;
+  border-radius: 3px;
+  position: relative;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.ham.active .line:first-child {
+  -webkit-transform: rotate(45deg) translate(0.4em, 0.4em);
+          transform: rotate(45deg) translate(0.4em, 0.4em);
+}
+
+.ham.active .line:nth-of-type(2) {
+  opacity: 0;
+}
+
+.ham.active .line:nth-of-type(3) {
+  -webkit-transform: rotate(-45deg) translate(0.4em, -0.4em);
+          transform: rotate(-45deg) translate(0.4em, -0.4em);
+}
+/*# sourceMappingURL=Ham.css.map */

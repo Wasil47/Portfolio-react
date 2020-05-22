@@ -1,0 +1,22 @@
+@import '../../styles/main.scss';
+
+#about-section {
+  overflow: hidden;
+  background: $text-color-light;
+  box-shadow: 0 0 0.3rem black; 
+  border-radius: 0.5em;
+  color: $background-color-dark;
+  font-size: 1.3em;
+  width: 90%;
+  max-width: 60rem;
+  margin: -1em auto 0 auto;
+  position: relative;
+}
+.about {
+  padding: 1.2em;
+  transition: all 0.7s ease-out;
+  h2 {
+    color: black;
+    font-weight: bold;
+  }
+}

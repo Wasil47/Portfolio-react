@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap");
+@import "./styles/main.scss";
+
+$main-font: "Darker Grotesque", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  color: $text-color-light;
+  font-family: $main-font;
+  line-height: 1.1;
+  scroll-behavior: smooth;
+
+  /* default document font size = 16px, 1rem = 16px, 100% = 16px, 62.5% = 10px */
+  font-size: 100%;
+  /* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+  @include respond-to(small) { font-size: 110%; }
+  @include respond-to(medium) { font-size: 120%; }
+  @include respond-to(large) { font-size: 130%; }
+  @include respond-to(xlarge) { font-size: 140%; }
+}
+body {
+  background: $background-color-light;
+}
+.hide-op {
+  opacity: 0.1;
+}
+.center {
+  text-align: center;
+}
+.in-front {
+  position: relative;
+  z-index: 2;
+}
+.trans-bold {
+  font-weight: bold;
+  opacity: 0.7;
+}
+.semi-visible {
+  font-size: 0.6em;;
+  opacity: 0.5;
+}

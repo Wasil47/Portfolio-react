@@ -1,0 +1,80 @@
+@import "../../styles/main.scss";
+
+#project-section {
+  padding-top: 1em;
+  margin: 1em auto 0 auto;
+  width: 100%;
+  max-width: 60rem;
+  font-weight: normal;
+  text-shadow: 0.5px 1px 2px black;
+
+  #projects-list {
+    margin: 0.5em auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+
+    .project {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50%;
+      width: $slider-width;
+      height: $slider-height;
+      max-width: 90vmin;
+      margin: 0.5em;
+      box-shadow: 0 0 0.3rem black;
+      border-radius: 0.5em;
+
+      .project-info {
+        background: $background-color-dark;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5em;
+        text-align: center;
+
+        h1,
+        h4,
+        p {
+          padding: 0.2em;
+        }
+
+        &:hover {
+          opacity: 0.96;
+          transition: all 0.5s;
+          
+        }
+      }
+
+      .project-links {
+        padding: 0.5em;
+
+        .project-link {
+          text-decoration: none;
+          color: white;
+          border: 1px solid white;
+          font-size: 1.2em;
+          width: 3em;
+          text-align: center;
+          display: inline-block;
+          max-width: 100%;
+          margin: 0.5em;
+          padding: 0.3em;
+          transition: all 0.2s ease-out 0.1s;
+          &:hover {
+            transform: scale(1.1);
+            color: $hover-color;
+            border: 2px solid $hover-color;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

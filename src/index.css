@@ -1,13 +1,72 @@
-body {
+@import url("https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap");
+/* Variables */
+/* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+/* mixins */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #acb9b5;
+  font-family: "Darker Grotesque", sans-serif;
+  line-height: 1.1;
+  scroll-behavior: smooth;
+  /* default document font size = 16px, 1rem = 16px, 100% = 16px, 62.5% = 10px */
+  font-size: 100%;
+  /* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
 }
+
+@media (min-width: 576px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media (min-width: 768px) and (min-height: 576px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media (min-width: 992px) and (min-height: 576px) {
+  html {
+    font-size: 130%;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 768px) {
+  html {
+    font-size: 140%;
+  }
+}
+
+body {
+  background: #4d6680;
+}
+
+.hide-op {
+  opacity: 0.1;
+}
+
+.center {
+  text-align: center;
+}
+
+.in-front {
+  position: relative;
+  z-index: 2;
+}
+
+.trans-bold {
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.semi-visible {
+  font-size: 0.6em;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,102 @@
+/* Variables */
+/* Device Breakpoints px - < 576 < 768 < 992 < 1200 */
+/* mixins */
+#project-section {
+  padding-top: 1em;
+  margin: 1em auto 0 auto;
+  width: 100%;
+  max-width: 60rem;
+  font-weight: normal;
+  text-shadow: 0.5px 1px 2px black;
+}
+
+#project-section #projects-list {
+  margin: 0.5em auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 95%;
+}
+
+#project-section #projects-list .project {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 18rem;
+  height: 15rem;
+  max-width: 90vmin;
+  margin: 0.5em;
+  -webkit-box-shadow: 0 0 0.3rem black;
+          box-shadow: 0 0 0.3rem black;
+  border-radius: 0.5em;
+}
+
+#project-section #projects-list .project .project-info {
+  background: #303841;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+#project-section #projects-list .project .project-info h1,
+#project-section #projects-list .project .project-info h4,
+#project-section #projects-list .project .project-info p {
+  padding: 0.2em;
+}
+
+#project-section #projects-list .project .project-info:hover {
+  opacity: 0.96;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#project-section #projects-list .project .project-links {
+  padding: 0.5em;
+}
+
+#project-section #projects-list .project .project-links .project-link {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1.2em;
+  width: 3em;
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0.5em;
+  padding: 0.3em;
+  -webkit-transition: all 0.2s ease-out 0.1s;
+  transition: all 0.2s ease-out 0.1s;
+}
+
+#project-section #projects-list .project .project-links .project-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #be3144;
+  border: 2px solid #be3144;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Projects.css.map */
