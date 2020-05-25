@@ -1,9 +1,15 @@
 @import "../../styles/main.scss";
 
 @keyframes bounce-2 {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(12%); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(12%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 #skill-section {
   overflow: hidden;
@@ -58,11 +64,6 @@
         }
       }
     }
-
-    .slide-up {
-      // transform: translateY(120%);
-      // opacity: 0;
-    }
   }
 
   .skill-comment {
@@ -70,4 +71,3 @@
     width: 100%;
   }
 }
-

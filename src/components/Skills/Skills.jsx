@@ -1,7 +1,6 @@
 import React, { useState, createRef } from "react";
 import "./Skills.css";
 import mySkills from "./mySkills";
-import { logDOM } from "@testing-library/react";
 
 function Skills() {
   const levels = ["Regular", "Junior", "Beginner"];
@@ -9,9 +8,7 @@ function Skills() {
     tittle: "",
     content: "",
     level: "Select technology for information",
-    selected: false,
   });
-  const ref = createRef();
 
   return (
     <section id="skill-section">
@@ -35,16 +32,10 @@ function Skills() {
                     tittle: skill.tittle,
                     content: skill.content,
                     level: skill.level,
-                    selected: true,
                   })
                 }
               />
               <p style={{ color: "white", fontSize: "0.7em" }}>{skill.level}</p>
-
-              {/* <aside className="skill-comment">
-                      <h3>{skill.tittle}</h3>
-                      {skill.content}
-                    </aside> */}
             </div>
           );
         })}

@@ -1,6 +1,7 @@
 import reactAppsImg from "../../images/react-apps.JPG";
 import blogImg from "../../images/blog.JPG";
 import dotsImg from "../../images/particules.JPG";
+import portfolioReactImg from "../../images/portfolio-react.JPG";
 
 const myProjects = [];
 function Project(name, tech, content, img, gitUrl, liveUrl) {
@@ -30,13 +31,22 @@ const blog = new Project(
   "https://blog-mongo.herokuapp.com/"
 );
 
-const dots = new Project (
+const dots = new Project(
   "Particules/Dots",
   "JavaScript canvas",
   "Made for fun, trying to use it as BG on my portfolio but mobilephones were lagging. Going to improve it one day.",
   dotsImg,
   "https://github.com/Wasil47/dots-particules",
   "https://wasil47.github.io/dots-particules/"
-)
+);
+
+const portfolioReact = new Project(
+  "myPortfolio - React",
+  "React, SCSS, JS",
+  "My one-page portfolio create with React",
+  portfolioReactImg,
+  "https://github.com/Wasil47/myPortfolio-react",
+  "https://wasil47.github.io/myPortfolio-react/"
+);
 
 export default myProjects;
