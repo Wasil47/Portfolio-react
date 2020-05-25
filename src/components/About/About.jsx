@@ -16,6 +16,7 @@ function About() {
           I am pretty good at finding informations and solutions.
         </p>
       </div>
+      <Skills />
     </section>
   );
 }
