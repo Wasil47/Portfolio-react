@@ -8,6 +8,7 @@ function Skills() {
     tittle: "",
     content: "",
     level: "Select technology for information",
+    selected: false,
   });
 
   return (
@@ -32,6 +33,7 @@ function Skills() {
                     tittle: skill.tittle,
                     content: skill.content,
                     level: skill.level,
+                    selected: true,
                   })
                 }
               />
