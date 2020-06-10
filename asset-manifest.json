@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/myPortfolio-react/static/css/main.3448be05.chunk.css",
-    "main.js": "/myPortfolio-react/static/js/main.26aed08d.chunk.js",
-    "main.js.map": "/myPortfolio-react/static/js/main.26aed08d.chunk.js.map",
+    "main.css": "/myPortfolio-react/static/css/main.bd528c94.chunk.css",
+    "main.js": "/myPortfolio-react/static/js/main.e9cd6a46.chunk.js",
+    "main.js.map": "/myPortfolio-react/static/js/main.e9cd6a46.chunk.js.map",
     "runtime-main.js": "/myPortfolio-react/static/js/runtime-main.51e6720d.js",
     "runtime-main.js.map": "/myPortfolio-react/static/js/runtime-main.51e6720d.js.map",
-    "static/js/2.79122431.chunk.js": "/myPortfolio-react/static/js/2.79122431.chunk.js",
-    "static/js/2.79122431.chunk.js.map": "/myPortfolio-react/static/js/2.79122431.chunk.js.map",
+    "static/js/2.a8a9131b.chunk.js": "/myPortfolio-react/static/js/2.a8a9131b.chunk.js",
+    "static/js/2.a8a9131b.chunk.js.map": "/myPortfolio-react/static/js/2.a8a9131b.chunk.js.map",
     "index.html": "/myPortfolio-react/index.html",
-    "precache-manifest.3d0fa2e0abee0d04322a7d1339ed9ed1.js": "/myPortfolio-react/precache-manifest.3d0fa2e0abee0d04322a7d1339ed9ed1.js",
+    "precache-manifest.b91317a3af14c45fb8e869aa16f07fa2.js": "/myPortfolio-react/precache-manifest.b91317a3af14c45fb8e869aa16f07fa2.js",
     "service-worker.js": "/myPortfolio-react/service-worker.js",
-    "static/css/main.3448be05.chunk.css.map": "/myPortfolio-react/static/css/main.3448be05.chunk.css.map",
-    "static/js/2.79122431.chunk.js.LICENSE.txt": "/myPortfolio-react/static/js/2.79122431.chunk.js.LICENSE.txt",
+    "static/css/main.bd528c94.chunk.css.map": "/myPortfolio-react/static/css/main.bd528c94.chunk.css.map",
+    "static/js/2.a8a9131b.chunk.js.LICENSE.txt": "/myPortfolio-react/static/js/2.a8a9131b.chunk.js.LICENSE.txt",
     "static/media/angular.png": "/myPortfolio-react/static/media/angular.00a6d71e.png",
     "static/media/blog.JPG": "/myPortfolio-react/static/media/blog.5660ee21.JPG",
     "static/media/bootstrap.png": "/myPortfolio-react/static/media/bootstrap.a9225eef.png",
     "static/media/css3.png": "/myPortfolio-react/static/media/css3.c9c2cf81.png",
+    "static/media/ecommerce.JPG": "/myPortfolio-react/static/media/ecommerce.aaee4d3a.JPG",
     "static/media/email-icon.png": "/myPortfolio-react/static/media/email-icon.a5c31838.png",
     "static/media/git-icon.png": "/myPortfolio-react/static/media/git-icon.17a6652f.png",
     "static/media/git.png": "/myPortfolio-react/static/media/git.27dd9395.png",
@@ -33,8 +34,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.51e6720d.js",
-    "static/js/2.79122431.chunk.js",
-    "static/css/main.3448be05.chunk.css",
-    "static/js/main.26aed08d.chunk.js"
+    "static/js/2.a8a9131b.chunk.js",
+    "static/css/main.bd528c94.chunk.css",
+    "static/js/main.e9cd6a46.chunk.js"
   ]
 }
