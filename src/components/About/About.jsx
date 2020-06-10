@@ -12,6 +12,10 @@ function About() {
           focusing on front-end.
         </p>
         <p>
+        I like to write in React and Node.js, 
+        but I wouldn't mind working with other frameworks.
+        </p>
+        <p>
           In general I have beginners/juniors knowledge of web development, but
           I am pretty good at finding informations and solutions.
         </p>

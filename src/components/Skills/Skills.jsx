@@ -1,9 +1,9 @@
-import React, { useState, createRef } from "react";
+import React, { useState } from "react";
 import "./Skills.css";
 import mySkills from "./mySkills";
 
 function Skills() {
-  const levels = ["Regular", "Junior", "Beginner"];
+  // const levels = ["Regular", "Junior", "Beginner"];
   const [comment, setComment] = useState({
     tittle: "",
     content: "",

@@ -19,6 +19,7 @@
   padding: 1.2em;
   -webkit-transition: all 0.7s ease-out;
   transition: all 0.7s ease-out;
+  text-align: center;
 }
 
 .about h2 {

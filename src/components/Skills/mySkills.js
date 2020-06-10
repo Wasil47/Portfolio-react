@@ -65,7 +65,7 @@ const htmlSkill = new Skill(
   reactSkill = new Skill(
     "Beginner",
     "React",
-    "Few projects in React - portfolio for example",
+    "Few projects in React - portfolio for example. I know hooks, how to pass states etc.",
     reactImg
   ),
   angularSkill = new Skill(
