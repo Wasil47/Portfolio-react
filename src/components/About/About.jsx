@@ -8,12 +8,11 @@ function About() {
       <div className="about in-front">
         <h2>About me</h2>
         <p>
-          I am a beginner full-stack developer, mainly
-          focusing on front-end.
+          I am a beginner full-stack developer, mainly focusing on front-end.
         </p>
         <p>
-        I like to write in React and Node.js, 
-        but I wouldn't mind working with other frameworks.
+          I like to write in React and Node.js, but I wouldn't mind working with
+          other frameworks/technologies.
         </p>
         <p>
           In general I have beginners/juniors knowledge of web development, but

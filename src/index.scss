@@ -23,7 +23,8 @@ html {
   @include respond-to(xlarge) { font-size: 140%; }
 }
 body {
-  background: $background-color-light;
+  // background: $background-color-light; 
+  background: $background-color;
 }
 .hide-op {
   opacity: 0.1;

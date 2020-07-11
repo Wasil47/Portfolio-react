@@ -21,7 +21,7 @@ const ecommerce = new Project(
   "Simple eCommerce project. Frontend in React + Bootstrap;\n Backend in Node.js + Express + mySQL",
   ecommerceImg,
   "https://github.com/Wasil47/eCommerce",
-  "https://wasil47.github.io/eCommerce"
+  "https://ecommerce-react-nodejs.herokuapp.com/"
 );
 
 const blog = new Project(

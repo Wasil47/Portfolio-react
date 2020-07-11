@@ -11,8 +11,14 @@
   font-size: 1.3em;
   width: 90%;
   max-width: 60rem;
-  margin: -1em auto 0 auto;
+  margin: 0.5em auto 0 auto;
   position: relative;
+}
+
+@media (min-width: 992px) and (min-height: 576px) {
+  #about-section {
+    margin: -1em auto 0 auto;
+  }
 }
 
 .about {

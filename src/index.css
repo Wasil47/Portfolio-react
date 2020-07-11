@@ -44,7 +44,8 @@ html {
 }
 
 body {
-  background: #4d6680;
+  background: -webkit-gradient(linear, left bottom, left top, from(#282f36), color-stop(5%, #303841), color-stop(20%, #4d6680), color-stop(50%, #4d6680), color-stop(70%, #4d6680), color-stop(90%, #303841), to(#282f36));
+  background: linear-gradient(0deg, #282f36 0%, #303841 5%, #4d6680 20%, #4d6680 50%, #4d6680 70%, #303841 90%, #282f36 100%);
 }
 
 .hide-op {

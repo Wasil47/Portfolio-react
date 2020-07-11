@@ -1,8 +1,35 @@
 /* Variables */
-$main-font: 'Darker Grotesque', sans-serif;
+$main-font: "Darker Grotesque", sans-serif;
 $background-color-light: #4d6680;
 $background-color-dark: #303841;
+
+$background-color: linear-gradient(
+  0deg,
+  #282f36 0%,
+  #303841 5%,
+  #4d6680 20%,
+  #4d6680 50%,
+  #4d6680 70%,
+  #303841 90%,
+  #282f36 100%
+);
+$background-color-dark-top: linear-gradient(
+  0deg,
+  #4d6680 0%,
+  #303841 60%,
+  #303841 85%,
+  #282f36 100%
+);
+$background-color-dark-bot: linear-gradient(
+  0deg,
+  #282f36 0%,
+  #303841 10%,
+  #303841 25%,
+  #4d6680 100%
+);
+
 $text-color-light: #acb9b5;
+$text-color-dark: #303841;
 $nav-color: #303f50;
 $hover-color: #be3144;
 // $slider-width: 400px;
@@ -18,15 +45,20 @@ $break-xlarge: 1200px;
 /* mixins */
 @mixin respond-to($media) {
   @if $media == small {
-    @media (min-width: $break-small) { @content; }
-  } 
-  @else if $media == medium {
-    @media (min-width: $break-medium) and (min-height: $break-small) { @content; }
-  }
-  @else if $media == large {
-    @media (min-width: $break-large) and (min-height: $break-small) { @content; }
-  }
-  @else if $media == xlarge {
-    @media (min-width: $break-xlarge) and (min-height: $break-medium) { @content; }
+    @media (min-width: $break-small) {
+      @content;
+    }
+  } @else if $media == medium {
+    @media (min-width: $break-medium) and (min-height: $break-small) {
+      @content;
+    }
+  } @else if $media == large {
+    @media (min-width: $break-large) and (min-height: $break-small) {
+      @content;
+    }
+  } @else if $media == xlarge {
+    @media (min-width: $break-xlarge) and (min-height: $break-medium) {
+      @content;
+    }
   }
 }
