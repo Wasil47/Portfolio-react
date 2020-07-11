@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb4f85d72d2176c21b4fedc5cb7132ee",
+    "revision": "010bf3aadd87e97c49ef277a034cd197",
     "url": "/myPortfolio-react/index.html"
   },
   {
-    "revision": "ee5e24aa04af2778a2fa",
-    "url": "/myPortfolio-react/static/css/main.bd528c94.chunk.css"
+    "revision": "d08ea636b2edb7a0b1de",
+    "url": "/myPortfolio-react/static/css/main.f8720b57.chunk.css"
   },
   {
-    "revision": "a294932cf8a6155333d1",
-    "url": "/myPortfolio-react/static/js/2.a8a9131b.chunk.js"
+    "revision": "0042d20e29601169a55c",
+    "url": "/myPortfolio-react/static/js/2.38432afe.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/myPortfolio-react/static/js/2.a8a9131b.chunk.js.LICENSE.txt"
+    "url": "/myPortfolio-react/static/js/2.38432afe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee5e24aa04af2778a2fa",
-    "url": "/myPortfolio-react/static/js/main.e9cd6a46.chunk.js"
+    "revision": "d08ea636b2edb7a0b1de",
+    "url": "/myPortfolio-react/static/js/main.0574d32c.chunk.js"
   },
   {
     "revision": "9cd3ddf89e1f21c39076",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio-react/static/media/mongodb.1f51812f.png"
   },
   {
+    "revision": "b46057bb74b567a5b2d0af8c71879ec5",
+    "url": "/myPortfolio-react/static/media/mysql-workbench.b46057bb.png"
+  },
+  {
     "revision": "70cd7e78ce07660c097ba3305493f6d2",
     "url": "/myPortfolio-react/static/media/node2.70cd7e78.png"
   },
@@ -84,8 +88,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myPortfolio-react/static/media/portfolio-react.2b18b2b8.JPG"
   },
   {
-    "revision": "c06e6cff8c74b6d6f691d0874b52163d",
-    "url": "/myPortfolio-react/static/media/profilowe2.c06e6cff.png"
+    "revision": "b67d2ab9492ac8a34d120d0e88239490",
+    "url": "/myPortfolio-react/static/media/postman.b67d2ab9.png"
+  },
+  {
+    "revision": "ac3180d7f05973a25c20e9381b4342de",
+    "url": "/myPortfolio-react/static/media/profilowe2.ac3180d7.png"
   },
   {
     "revision": "25b05eca5f55915999af7d6997d82876",
