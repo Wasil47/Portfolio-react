@@ -92,19 +92,19 @@ const htmlSkill = new Skill(
   vscSkill = new Skill(
     "Beginner",
     "VSC",
-    "Basics of VS Code - code editor I use most often",
+    "Visual Studio Code - code editor I use most often",
     vscImg
   ),
   postmanSkill = new Skill(
     "Beginner",
     "Postman",
-    "Basic knowledge, I use Postman to send queries like GET, POST etc.",
+    "I use Postman to send queries like GET, POST etc.",
     postmanImg
   ),
   mySqlWorkbenchSkill = new Skill(
     "Beginner",
     "Workbench",
-    "Basic knowledge, I use MySQL Workbench to add, edit and send queries and receive data from mySQL databases",
+    "I use MySQL Workbench to add, edit and send queries and receive data from mySQL databases",
     mysqlWorkbenchImg
   );
 
